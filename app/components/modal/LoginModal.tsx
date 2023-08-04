@@ -14,7 +14,6 @@ import Input from "../input/Input";
 import toast from "react-hot-toast";
 import Button from "../Button";
 
-import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 
 interface LoginModalProps {}
@@ -93,12 +92,7 @@ const LoginModal: FC<LoginModalProps> = () => {
         icon={FcGoogle}
         onClick={() => signIn("google")}
       />
-      <Button
-        outline
-        label="Continue with Github"
-        icon={AiFillGithub}
-        onClick={() => signIn("github")}
-      />
+
       <div className="text-neutral-500 text-center mt-4 font-light">
         <div className="flex items-center justify-center gap-2">
           <div className="">First time using Airbnb?</div>
