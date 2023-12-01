@@ -15,8 +15,8 @@ import SearchModal from "./components/modal/SearchModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Airbnb",
-  description: "Air bnb clone",
+  title: "Booking house | home",
+  description: "Booking your house for your trip.",
 };
 
 export default async function RootLayout({
